@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="{{ '/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <h1 class="project-name">{{ site.title | default: 'Chamonix - the Ski Locker' }}</h1>
+    <h1 class="logo">{{ site.title | default: 'Chamonix - the Ski Locker' }}</h1>
 
-    <section class="main-content">
+    <section class="main">
       {{ content }}
     </section>
 
-    <footer class="site-footer">
+    <footer class="footer">
       <a href="http://www.theskilocker.com">the Ski Locker</a> -
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}">Github</a>
